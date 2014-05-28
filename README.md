@@ -20,7 +20,6 @@ Table of Contents<a name="toc"></a>
 1. [Chest Shops](#chestshop)
 1. [Ranks](#ranks)
 
-
 1. About Commands
 -----------
 
@@ -31,12 +30,17 @@ Commands are keywords that tell Meepcraft to do something. Perhaps the first com
 
 One of the first things you'll probably want to do is play some minigames. These are games within MeepCraft that you can play against (or with) other players. Playing (and winning) games is one of the best ways to earn Meebles (money) in Meepcraft. Go to /spawn and browse, or use the following shortcuts to get to your favorite game:
 
-/hg - Hunger Games - Compete to survive with other players to the death with timed chest drops. Right click the feather you spawn with in the game to choose from one of the kits.
+**/hg** - Hunger Games - Compete to survive with other players to the death with timed chest drops. Right click the feather you spawn with in the game to choose from one of the kits.
 
-/skyblock - Skyblock - Claim a miniature island floating in the sky and use the few resources you have to earn acheivements and gain additional resources. The MeepCraft community adds a whole new dimension to the game.
+**/skyblock** - Skyblock - Claim a miniature island floating in the sky and use the few resources you have to earn acheivements and gain additional resources. The MeepCraft community adds a whole new dimension to the game.
 
-/boomo - Boomo - A MeepCraft original game. Navigate a maze of shrubs and explode your way through it (and other players) with TNT. Last one standing wins.
+**/boomo** - Boomo - A MeepCraft original game. Navigate a maze of shrubs and explode your way through it (and other players) with TNT. Last one standing wins.
 
+**/tntrun** - TtT Run - Every block of sand you step on dissapears. If you fall through the hole you lose the game. The last player wins the game. 
+
+**/ctf** - Capture The Flag - Work with your team to gather resources and equipment, capture the other team's flag from their base, and post it on your home base's post. 
+
+**/halo** - Halo - The first person shooter you know and love, Minecraft style. 
 
 
 [Return to TOC](#toc)

@@ -53,7 +53,7 @@ There's a steady chat stream going on 24/7 at MeepCraft. The ever-present modera
 
 Chat is scoped to your location as follows:
 
-**Local Chat** - People in your general vacinity will "hear" you. Just use the "t" key to open the chat prompt and type away. You can also do `/l message`, but why would you.
+**Local Chat** - People in your general vicinity will "hear" you. Just use the "t" key to open the chat prompt and type away. You can also do `/l message`, but why would you.
 
 **Town Chat** - People in your town will hear you. Use `/tc message`.
 

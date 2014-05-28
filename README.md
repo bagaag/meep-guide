@@ -7,25 +7,25 @@ Table of Contents<a name="toc"></a>
 -----------------
 
 1. [About Commands](#commands)
-1. [Minigames](#minigames)
-1. [Communicating with Other Players](#communicating)
-1. [The Wild](#wild)
-1. [Buying and Selling Stuff](#economy)
-1. [Earning Money](#earning)
-1. [Creative](#creative)
-1. [Joining a Town](#jointowns)
-1. [Claiming a Plot](#plots)
-1. [Town Taxes & Ranks](#taxes)
-1. [Owning a Town](#buytown)
-1. [Chest Shops](#chestshop)
-1. [Ranks](#ranks)
+2. [Minigames](#minigames)
+3. [Communicating with Other Players](#communicating)
+4. [The Wild](#wild)
+5. [Buying and Selling Stuff](#economy)
+6. [Earning Money](#earning)
+7. [Creative](#creative)
+8. [Joining a Town](#jointowns)
+9. [Claiming a Plot](#plots)
+10. [Town Taxes & Ranks](#taxes)
+11. [Owning a Town](#buytown)
+12. [Chest Shops](#chestshop)
+13. [Ranks](#ranks)
 
 1. About Commands
 -----------
 
 Commands are keywords that tell Meepcraft to do something. Perhaps the first command you should learn is `/spawn`. Enter it by typing it, complete with the initial / character, on your keyboard while in MeepCraft. `/spawn` will take you back to the server's home, called Spawn.
 
-2.  Minigames<a name="minigames"></a>
+2. Minigames<a name="minigames"></a>
 -------------
 
 One of the first things you'll probably want to do is play some minigames. These are games within MeepCraft that you can play against (or with) other players. Playing (and winning) games is one of the best ways to earn Meebles (money) in Meepcraft. Go to /spawn and browse, or use the following shortcuts to get to your favorite game:
@@ -45,6 +45,28 @@ One of the first things you'll probably want to do is play some minigames. These
 
 [Return to TOC](#toc)
 
-2 - Communicating with Other Players
+3. Communicating with Other Players
 ------------------------------------
+
+There's a steady chat stream going on 24/7 at Meepcraft. MeepCraft is strict about no swearing, no drug references, no CAPS, and no spamming (saying anything 2+ times in a row). Violate these and you'll get booted fast. 
+
+Chat is scoped to your location as follows:
+
+**Local Chat** - People in your general vacinity will "hear" you. Just use the "t" key to open the chat prompt and type away. You can also do "/l message", but why would you.
+
+**Town Chat** - People in your town will hear you. Use "/tc message".
+
+**World Chat** - People in the world you're in will hear you. For example, Spawn, Alpha Towns, Beta Towns, Skyblock, Wilds, etc. Use "/w message".
+
+**Global Chat** - Everyone on the server will hear you. Use "/g message". 
+
+**Private Message** - You can also communicate player-to-player using "/msg PlayerName message". This would send "message" privately to the player named PlayerName. 
+
+**Mail** - If the player you want to talk to isn't online (or paying attention to chat) you can use "/mail send PlayerName message" to send the player mail. Use "/mail read" to read your mail, and "/mail clear" to delete all messages.
+
+If you're wondering if a player is online, you can use the Tab key on your keyboard to display the list of players online. You can also use "/seen PlayerName" to get the date and location they were last online and what their Meebles balance is.
+
+
+
+
 

@@ -49,7 +49,7 @@ One of the first things you'll probably want to do is play some minigames. These
 3. Communicating with Other Players
 ------------------------------------
 
-There's a steady chat stream going on 24/7 at Meepcraft. MeepCraft is strict about no swearing, no drug references, no CAPS, and no spamming (saying anything 2+ times in a row). Violate these and you'll get booted fast. 
+There's a steady chat stream going on 24/7 at MeepCraft. The ever-present moderators are strict about no swearing, no drug references, no CAPS, and no spamming (saying anything 2+ times in a row). Violate these and you'll get booted fast. 
 
 Chat is scoped to your location as follows:
 
@@ -66,6 +66,8 @@ Chat is scoped to your location as follows:
 **Mail** - If the player you want to talk to isn't online (or paying attention to chat) you can use `/mail send PlayerName message` to send the player mail. Use `/mail read` to read your mail, and `/mail clear` to delete all messages.
 
 If you're wondering if a player is online, you can use the Tab key on your keyboard to display the list of players online. You can also use `/seen PlayerName` to get the date and location they were last online and what their Meebles balance is.
+
+Finally, if you need help, use `/modreq message` to send a message to a moderator. Be patient, stay online and pay attention to incoming messages. Be sure to thank them for their help - they're not getting paid.
 
 [Return to TOC](#toc)
 

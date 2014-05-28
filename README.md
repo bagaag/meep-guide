@@ -29,7 +29,7 @@ Commands are keywords that tell Meepcraft to do something. Perhaps the first com
 2. Minigames<a name="minigames"></a>
 -------------
 
-One of the first things you'll probably want to do is play some minigames. These are games within MeepCraft that you can play against (or with) other players. Playing (and winning) games is one of the best ways to earn Meebles (money) in Meepcraft. Go to /spawn and browse, or use the following shortcuts to get to your favorite game:
+One of the first things you'll probably want to do is play some minigames. These are games within MeepCraft that you can play against (or with) other players. Playing (and winning) games is one of the best ways to earn Meebles (money) in Meepcraft. Go to `/spawn` and browse, or use the following shortcuts to get to your favorite game:
 
 **`/hg`** - Hunger Games - Compete to survive with other players to the death with timed chest drops. Right click the feather you spawn with in the game to choose from one of the kits.
 

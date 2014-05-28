@@ -20,6 +20,7 @@ Table of Contents<a name="toc"></a>
 1. [Chest Shops](#chestshop)
 1. [Ranks](#ranks)
 
+
 1. About Commands
 -----------
 

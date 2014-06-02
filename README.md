@@ -18,7 +18,7 @@ Table of Contents<a name="toc"></a>
 10. [Town Taxes & Ranks](#taxes)
 11. [Owning a Town](#buytown)
 12. [Chest Shops](#chestshop)
-
+13. [Donating for Ranks & Meebles](#donating)
 
 1. About Commands<a name="commands"></a>
 -----------
@@ -205,5 +205,9 @@ You can save at least 100,000 Meebles if you're patient and find another player 
 [Return to TOC](#toc)
 
 
+13. Donating for Ranks & Meebles<a name="donating"></a>
+--------------------------------
+
+[Return to TOC](#toc)
 
 

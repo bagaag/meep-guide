@@ -129,23 +129,23 @@ Meepcraft has a creative mode server at `/creative` that uses `/plotme` to provi
 8. Joining a Town<a name="jointowns"></a>
 -----------------
 
-When you've decided to stick around a while, you'll want to join a town and claim a plot to stash your stuff in. Towny is a module in Meepcraft that allows you buy a town for 300,000 Meebles and sell 16x16 plots to residents who pay taxes to the town's account. Rather than buying a whole town, start by joining an existing town. 
+**Joining vs. Buying** - When you've decided to stick around a while, you'll want to join a town and claim a plot to stash your stuff in. Towny is a module in Meepcraft that allows you buy a town for 300,000 Meebles and sell 16x16 plots to residents who pay taxes to the town's account. Rather than buying a whole town, start by joining an existing town. 
 
-Meepcraft has two separate Towny worlds: Alpha and Beta. You can get to them respectively with `/warp alpha` and `/warp beta`. Towny commands only work one of these worlds, and the two worlds are not connected as far as Towny is concerned. The commands in this section will only work in either Alpha or Beta worlds.
+**Two Towny Worlds** - Meepcraft has two separate Towny worlds: Alpha and Beta. You can get to them respectively with `/warp alpha` and `/warp beta`. Towny commands only work one of these worlds, and the two worlds are not connected as far as Towny is concerned. The commands in this section will only work in either Alpha or Beta worlds.
 
-You can only be a resident of one town at a time, but since there are two Towny worlds, you can be a resident of one town in each if you want.
+**One Town at a Time** - You can only be a resident of one town at a time, but since there are two Towny worlds, you can be a resident of one town in each if you want.
 
-You can see a list of open towns (meaning anyone can join the town) by doing `/town list`. Visit a town by doing `/t spawn TownName` where TownName is the name of the town you want to visit. Look at the rules, check the taxes (more on taxes below), see if there are any plots available and decide if you want to join. To join an open town, do `/t join TownName`.
+**Find a Town** - You can see a list of open towns (meaning anyone can join the town) by doing `/town list`. Visit a town by doing `/t spawn TownName` where TownName is the name of the town you want to visit. Look at the rules, check the taxes (more on taxes below), see if there are any plots available and decide if you want to join. To join an open town, do `/t join TownName`.
 
-If you want to join a town that isn't open, you'll need the Mayor or an Assistant invite you by doing `/t add YourUseName`. Then you need to do `/accept`.
+**Get Invited** - If you want to join a town that isn't open, you'll need the Mayor or an Assistant invite you by doing `/t add YourUseName`. Then you need to do `/accept`.
 
-Towny is a complicated module, so this is just a very high level overview. See the Towny wiki for the [full list of commands](https://code.google.com/a/eclipselabs.org/p/towny/wiki/Commands) and their use.
+**Documentation** - Towny is a complicated module, so this is just a very high level overview. See the Towny wiki for the [full list of commands](https://code.google.com/a/eclipselabs.org/p/towny/wiki/Commands) and their use.
 
-Outside the boundaries of a town is confusingly called the wilds, but Towny wilds do not allow you to gather any resources. Use the <a href="#wild">Wild</a for that.
+**Towny Wilds** - The area outside the boundaries of a town is confusingly called the wilds, but Towny wilds do not allow you to gather any resources. Use the <a href="#wild">Wild</a for that.
 
-Once you're a member of a town, doing `/t spawn` in the correct Towny world will bring you to your town's spawn.
+**Get to your Town** - Once you're a member of a town, doing `/t spawn` in the correct Towny world will bring you to your town's spawn.
 
-You can leave a town by doing `/t leave`. Just BE WARNED that when you leave a town you lose your plot(s) and access to them. If you want to move towns, ask for a temporary Embassy plot. This lets you have a plot in another town without being a member. Once you've moved your stuff, you can leave the old town and join the new one.
+**Leaving & Moving** - You can leave a town by doing `/t leave`. Just BE WARNED that when you leave a town you lose your plot(s) and access to them. If you want to move towns, ask for a temporary Embassy plot. This lets you have a plot in another town without being a member. Once you've moved your stuff, you can leave the old town and join the new one.
 
 [Return to TOC](#toc)
 
@@ -155,13 +155,13 @@ You can leave a town by doing `/t leave`. Just BE WARNED that when you leave a t
 
 Once you've joined a town, you can claim a plot.
 
-Towns are divided into 16x16 sections called plots. As you walk through a town, watch the chat feed. If a plot is for sale, it will indicate the price when you step into it. Find a plot that's for sale, stand on it and do `/plot claim`. Once you've claimed the plot, you can start building. 
+**Claim** - Towns are divided into 16x16 sections called plots. As you walk through a town, watch the chat feed. If a plot is for sale, it will indicate the price when you step into it. Find a plot that's for sale, stand on it and do `/plot claim`. Once you've claimed the plot, you can start building. 
 
-It's a good idea to do `/sethome` on your new plot so you can get back to it easily using `/home`. 
+**Set Home** - It's a good idea to do `/sethome` on your new plot so you can get back to it easily using `/home`. 
 
-Most towns have the default permissions so that only you (and the town Mayor and Assistants) can open your doors and chests. You can use `/plot set perm` (<a href="https://code.google.com/a/eclipselabs.org/p/towny/wiki/Commands#/plot">details</a>) to modify these permissions.
+**Permissions** - Most towns have the default permissions so that only you (and the town Mayor and Assistants) can open your doors and chests. You can use `/plot set perm` (<a href="https://code.google.com/a/eclipselabs.org/p/towny/wiki/Commands#/plot">details</a>) to modify these permissions.
 
-If you want to sell your plot, use `/plot fs 100` where 100 is the price you wish to set. You'll get the money if someone buys it, but you'll also pay the taxes on the plot until it does. You can also do `/plot unclaim` to release the plot back to the town.
+**Selling** - If you want to sell your plot, use `/plot fs 100` where 100 is the price you wish to set. You'll get the money if someone buys it, but you'll also pay the taxes on the plot until it does. You can also do `/plot unclaim` to release the plot back to the town.
 
 [Return to TOC](#toc)
 
@@ -169,9 +169,9 @@ If you want to sell your plot, use `/plot fs 100` where 100 is the price you wis
 10. Town Taxes & Ranks<a name="taxes"></a>
 ----------------------
 
-Each town has its own bank account, and the server charges that account $100 per day, per plot in the town. To offset this cost and to pay for infrastructure, Mayors can collect taxes from their residents. Taxes are collected every 24 hours. Mayors can set taxes on residency, so you have to pay even if you don't claim a plot in town. They can also set taxes per plot. Taxes can be fixed dollar amounts or a percentage of each resident's balance. Be wary of towns that charge percentage tax as the daily amount can become quite substantial as your balance increases.
+**Taxes** - Each town has its own bank account, and the server charges that account $100 per day, per plot in the town. To offset this cost and to pay for infrastructure, Mayors can collect taxes from their residents. Taxes are collected every 24 hours. Mayors can set taxes on residency, so you have to pay even if you don't claim a plot in town. They can also set taxes per plot. Taxes can be fixed dollar amounts or a percentage of each resident's balance. Be wary of towns that charge percentage tax as the daily amount can become quite substantial as your balance increases.
 
-Ranks are jobs or titles Mayors can hand out to residents. Ranked residents do not pay taxes. Ranks include Co-Mayor, Assistant and Recruiter. Assistants are just like the Mayor but can't do a handful of important commands like deleting the town. Recruiters can add residents to the town, but not much else. Mayors can assign a rank with `/town rank add PlayerName RankName`.
+**Ranks** - Ranks are jobs or titles Mayors can hand out to residents. Ranked residents do not pay taxes. Ranks include Co-Mayor, Assistant and Recruiter. Assistants are just like the Mayor but can't do a handful of important commands like deleting the town. Recruiters can add residents to the town, but not much else. Mayors can assign a rank with `/town rank add PlayerName RankName`.
 
 [Return to TOC](#toc)
 

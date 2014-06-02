@@ -139,7 +139,7 @@ You can see a list of open towns (meaning anyone can join the town) by doing `/t
 
 If you want to join a town that isn't open, you'll need the Mayor or an Assistant invite you by doing `/t add YourUseName`. Then you need to do `/accept`.
 
-Towny is a complicated module, so this is just a very high level overview. See [the Towny wiki](https://code.google.com/a/eclipselabs.org/p/towny/wiki/Commands) for the full list of commands and their use.
+Towny is a complicated module, so this is just a very high level overview. See the Towny wiki for the [full list of commands](https://code.google.com/a/eclipselabs.org/p/towny/wiki/Commands) and their use.
 
 Outside the boundaries of a town is confusingly called the wilds, but Towny wilds do not allow you to gather any resources. Use the <a href="#wild">Wild</a for that.
 

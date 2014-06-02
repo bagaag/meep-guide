@@ -18,10 +18,9 @@ Table of Contents<a name="toc"></a>
 10. [Town Taxes & Ranks](#taxes)
 11. [Owning a Town](#buytown)
 12. [Chest Shops](#chestshop)
-13. [Ranks](#ranks)
 
 
-1. About Commands
+1. About Commands<a name="commands"></a>
 -----------
 
 Commands are keywords that tell Meepcraft to do something. Perhaps the first command you should learn is `/spawn`. Enter it by typing it, complete with the initial / character, on your keyboard while in MeepCraft. `/spawn` will take you back to the server's home, called Spawn.
@@ -43,13 +42,15 @@ One of the first things you'll probably want to do is play some minigames. These
 
 **`/halo`** - Halo - The first person shooter you know and love, Minecraft style. 
 
+**`/parkour`** - Parkour - Test your skill in running and jumping on some very challenging courses. 
+
 [Return to TOC](#toc)
 
 
-3. Communicating with Other Players
+3. Communicating with Other Players<a name="communicating"></a>
 ------------------------------------
 
-There's a steady chat stream going on 24/7 at MeepCraft. The ever-present moderators are strict about no swearing, no drug references, no CAPS, and no spamming (saying anything 2+ times in a row). Violate these and you'll get booted fast. 
+There's a steady chat stream going on 24/7 at MeepCraft. The ever-present moderators are strict about no swearing, no drug references, no CAPS, and no spamming (saying anything 2+ times in a row). Violate these and you'll get booted fast. Unfortunately, there's no way to turn off the chat.
 
 Chat is scoped to your location as follows:
 
@@ -72,19 +73,19 @@ Finally, if you need help, use `/modreq message` to send a message to a moderato
 [Return to TOC](#toc)
 
 
-4. The Wild
+4. The Wild<a name="wild"></a>
 -----------
 
-The Wild is the place where you can roam around freely, break and set blocks, chop wood, mine and hunt. The Wild is PVP, meaning other players can kill you and take your stuff. The Wild also gets periodically reset, meaning everything gets wiped and regenerated. You also can't protect your stuff, so putting it in chests in the wild and leaving is leaving it up for grabs if anyone else finds it. Use the Wild to get stuff, but keep your stuff safe in Towns (more on this below).
+The Wild is the place where you can roam around freely, break and set blocks, chop wood, mine and hunt. The Wild is PVP, meaning other players can kill you and take your stuff. The Wild also gets periodically reset, meaning everything gets wiped and regenerated. You also can't protect your stuff, so putting it in chests in the wild and leaving is leaving it up for grabs for anyone who finds it. Use the Wild to get raw materials, but keep your stuff safe in Towns (more on this below).
 
-Use `/wild` to go to the Wild spawn point. Better yet, use `/rp` to go to a random position in the Wild.  
+Use `/wild` to go to the Wild spawn point. Better yet, use `/rp` to go to directly to a random position in the Wild.  
 
 [Return to TOC](#toc)
 
-5. Buying and Selling Stuff
+5. Buying and Selling Stuff<a name="economy"></a>
 ---------------------------
 
-MeepCraft has a very cool frictionless economy. Money is called Meebles and is price fixed based on the supply and demand of gold ingots. Items are generally named what you see when they're in your inventory. If you're not sure of the name of a certain item, ask around. 
+MeepCraft has a very cool frictionless economy. Money is called Meebles and is price fixed based on the supply and demand of gold ingots with periodic manipulation to keep it stable. In shop commands, items are generally named what you see when they're in your inventory. If you're not sure of the name of a certain item, ask around. 
 
 **`/bal`** - Check your balance. 
 
@@ -99,5 +100,109 @@ MeepCraft has a very cool frictionless economy. Money is called Meebles and is p
 **`/bank`** - Teleports to the Bank, where you can trade gold by clicking on special signs. Note that you can't `/buy` or `/sell` gold.
 
 [Return to TOC](#toc)
+
+
+6. Earning Money<a name="earning"></a>
+----------------
+
+Money is quite useful in Meepcraft, and new users often wonder what's the best way to earn money. Learning how to earn tons of money is part of the game and fun of Meepcraft, but here are a few relatively simple ways to get fast cash:
+
+**Vote** - Do `/vote` and click the link. You get about $6,000 for voting (sometimes much more based on a lottery system), it only takes a minute or two, and you can do it every day.
+
+**Play Minigames** - All the <a href="#minigrames">minigames</a> have some kind of payout. It doesn't seem to be documented anywhere, so play a few games and see what you earn.
+
+**Go Mining** - Chopping wood, collecting dirt, mining for ores and gems. Everything you collect in the <a href="#wild">Wild</a> can be sold using `/sell`.
+
+**Jobs** - Watch global chat for players hiring other players to performn tasks like clearing plots.
+
+[Return to TOC](#toc)
+
+
+7. Creative<a name="creative"></a>
+-----------
+
+Meepcraft has a creative mode server at `/creative` that uses `/plotme` to provision creative Minecraft canvases. Do `/plotme auto` to get one of your own and start building. Use `/plotme home` to return to it later on. Use just `/plotme` for help on all the available commands.
+
+[Return to TOC](#toc)
+
+
+8. Joining a Town<a name="jointowns"></a>
+-----------------
+
+When you've decided to stick around a while, you'll want to join a town and claim a plot to stash your stuff in. Towny is a module in Meepcraft that allows you buy a town for 300,000 Meebles and sell 16x16 plots to residents who pay taxes to the town's account. Rather than buying a whole town, start by joining an existing town. 
+
+Meepcraft has two separate Towny worlds: Alpha and Beta. You can get to them respectively with `/warp alpha` and `/warp beta`. Towny commands only work one of these worlds, and the two worlds are not connected as far as Towny is concerned. The commands in this section will only work in either Alpha or Beta worlds.
+
+You can only be a resident of one town at a time, but since there are two Towny worlds, you can be a resident of one town in each if you want.
+
+You can see a list of open towns (meaning anyone can join the town) by doing `/town list`. Visit a town by doing `/t spawn TownName` where TownName is the name of the town you want to visit. Look at the rules, check the taxes (more on taxes below), see if there are any plots available and decide if you want to join. To join an open town, do `/t join TownName`.
+
+If you want to join a town that isn't open, you'll need the Mayor or an Assistant invite you by doing `/t add YourUseName`. Then you need to do `/accept`.
+
+Towny is a complicated module, so this is just a very high level overview. See [the Towny wiki](https://code.google.com/a/eclipselabs.org/p/towny/wiki/Commands) for the full list of commands and their use.
+
+Outside the boundaries of a town is confusingly called the wilds, but Towny wilds do not allow you to gather any resources. Use the <a href="#wild">Wild</a for that.
+
+Once you're a member of a town, doing `/t spawn` in the correct Towny world will bring you to your town's spawn.
+
+
+[Return to TOC](#toc)
+
+
+9. Claiming a Plot<a name="plots"></a>
+------------------
+
+Once you've joined a town, you can claim a plot.
+
+Towns are divided into 16x16 sections called plots. As you walk through a town, watch the chat feed. If a plot is for sale, it will indicate the price when you step into it. Find a plot that's for sale, stand on it and do `/plot claim`. Once you've claimed the plot, you can start building. 
+
+It's a good idea to do `/sethome` on your new plot so you can get back to it easily using `/home`. 
+
+Most towns have the default permissions so that only you (and the town Mayor and Assistants) can open your doors and chests. You can use `/plot set perm` (<a href="https://code.google.com/a/eclipselabs.org/p/towny/wiki/Commands#/plot">details</a>) to modify these permissions.
+
+If you want to sell your plot, use `/plot fs 100` where 100 is the price you wish to set. You'll get the money if someone buys it, but you'll also pay the taxes on the plot until it does. You can also do `/plot unclaim` to release the plot back to the town.
+
+[Return to TOC](#toc)
+
+
+10. Town Taxes & Ranks<a name="taxes"></a>
+----------------------
+
+Each town has its own bank account, and the server charges that account $100 per day, per plot in the town. To offset this cost and to pay for infrastructure, Mayors can collect taxes from their residents. Taxes are collected every 24 hours. Mayors can set taxes on residency, so you have to pay even if you don't claim a plot in town. They can also set taxes per plot. Taxes can be fixed dollar amounts or a percentage of each resident's balance. Be wary of towns that charge percentage tax as the daily amount can become quite substantial as your balance increases.
+
+Ranks are jobs or titles Mayors can hand out to residents. Ranked residents do not pay taxes. Ranks include Co-Mayor, Assistant and Recruiter. Assistants are just like the Mayor but can't do a handful of important commands like deleting the town. Recruiters can add residents to the town, but not much else. Mayors can assign a rank with `/town rank add PlayerName RankName`.
+
+[Return to TOC](#toc)
+
+
+11. Owning (and Moving) a Town<a name="buytown"></a>
+-----------------
+
+If you have at least 300,000 Meebles and want to start your own town, here's how.
+
+1. Find a good spot by going to the random location teleport in the towny world spawn.
+2. Do `/town new My Town Name` to create a town called My Town Name. This gives you a town consisting of a single plot. 
+3. Do `/town deposit 10000` to deposit 10,000 Meebles into the town account. This is needed to claim additional plots (1,000 Meebles each) and to pay the daily upkeep (100 Meebles per plot). If it runs out, your town fails and you lose everything in it.
+4. Claim adjacent plots with `/town claim` when standing on it. You can reverse this for a plot with `/town unclaim`.
+5. Use `/t` to see important town stats, like your daily upkeep bill. 
+
+You can save at least 100,000 Meebles if you're patient and find another player selling a town that hasn't really taken off. If you can find a town for sale that doesn't have residents, you can move the town location as follows.
+
+1. Unclaim all the plots except for the home block.
+2. Do `/sethome` on the home block so you don't lose track of it.
+3. Find another place to base your town, and do `/t claim outpost`. 
+4. Set the new outpost as your home block with `/t set homeblock`.
+5. Set your town's spawn point on the new homeblock with `/t set spawn`.
+6. Go back to the old home block and do `/t unclaim`.
+
+[Return to TOC](#toc)
+
+
+12. Chest Shops<a name="chestshop"></a>
+---------------
+
+[Return to TOC](#toc)
+
+
 
 

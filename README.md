@@ -145,6 +145,7 @@ Outside the boundaries of a town is confusingly called the wilds, but Towny wild
 
 Once you're a member of a town, doing `/t spawn` in the correct Towny world will bring you to your town's spawn.
 
+You can leave a town by doing `/t leave`. Just BE WARNED that when you leave a town you lose your plot(s) and access to them. If you want to move towns, ask for a temporary Embassy plot. This lets you have a plot in another town without being a member. Once you've moved your stuff, you can leave the old town and join the new one.
 
 [Return to TOC](#toc)
 

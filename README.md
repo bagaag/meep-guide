@@ -1,4 +1,4 @@
-MeepCraft, The Missing Manual
+MeepCraft, Quick Start Guide
 ==========
 
 Here is everything you need to know to get started with MeepCraft, the world's greatest Minecraft server. The official website for Meepcraft is at http://meepcraft.com. Definitely spend some time checking out that site, [especially the rules](http://meepcraft.com/forums/rules.27/). What it lacks, however, is a comprehensive getting started guide. So here it is.
